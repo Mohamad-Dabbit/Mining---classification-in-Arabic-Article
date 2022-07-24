@@ -41,6 +41,19 @@ Then we sort through one of the classifiers:
 
 3-CNN
 
+---------------------------
+النتائج:
+
+تم الانتهاء من أكواد:
+
+1-DecisionTree
+
+2-RandomForest
+
+مع قسم CNN 
+الملف باسم CNN_<UNK>.ipynb جاهز
+  
+  أما CNN_TFidf.ipynb فلم يحصل على النتائج المطلوبة.
 
 ---------------------------
 
