@@ -30,6 +30,8 @@ Then we sort through one of the classifiers:
 2- WordEmpiding
 
 3- XLnet
+
+
 ثم نقوم بالفرز من خلال أحد المصنفات:
 
 
