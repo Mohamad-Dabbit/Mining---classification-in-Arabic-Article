@@ -6,9 +6,11 @@ Then we convert it to numbers via a feature extraction:
 
 1- TfIdf 
 
-2- WordEmpiding
+2- Count Vectorizer
 
-3- XLnet
+3- Word Embedding
+
+4- XLnet
 
 
 Then we sort through one of the classifiers:
@@ -41,19 +43,34 @@ Then we sort through one of the classifiers:
 
 3-CNN
 
+4-SVC
+
+5-Logistic Regression
+
+6- XLNet
+
 ---------------------------
 النتائج:
 
 تم الانتهاء من أكواد:
 
-1-DecisionTree
+1-SVC_TfIdf=96.0430727313857 
 
-2-RandomForest
+2-NN_TfIdf=96.0077872576269
 
-مع قسم CNN 
-الملف باسم CNN_<UNK>.ipynb جاهز
-  
-  أما CNN_TFidf.ipynb فلم يحصل على النتائج المطلوبة.
+3-Logistic Regression_TfIdf=95.7348664557344
+
+4-Logistic Regression_Count Vectorizer=95.4648608237318
+
+5-CNN_Embedding=95.0377829996709
+
+6-Random Forest_TfIdf=93.7913876073144
+
+7-DecisionTree _TfIdf=85.238443051627
+
+8-
+
+9-
 
 ---------------------------
 
