@@ -21,20 +21,26 @@ Then we sort through one of the classifiers:
 
 3-CNN
 
+4-Logistic regression
+
+5-SVC
 ---------------------------
 في هذا البرنامج نصنف المقالات باللغة العربية
 حيث نقوم بتنظيف النص أولاً
 
 ثم نقوم بتحويله إلى أرقام عن طريق استخراج الميزة:
 
-1- TfIdf
+1- TfIdf 
 
-2- WordEmpiding
+2- Count Vectorizer
 
-3- XLnet
+3- Word Embedding
+
+4- XLnet
 
 
 ثم نقوم بالفرز من خلال أحد المصنفات:
+
 
 
 1-DecisionTree
@@ -43,36 +49,35 @@ Then we sort through one of the classifiers:
 
 3-CNN
 
-4-SVC
+4-Logistic regression
 
-5-Logistic Regression
-
-6- XLNet
+5-SVC
 
 ---------------------------
+Resulte:
+
 النتائج:
 
-تم الانتهاء من أكواد:
 
-1-SVC_TfIdf=96.0430727313857 
+| Classification      | Feature Extraction | accuracy | Time         | RAM ABOVE 1GB |
+| ------------------- | ------------------ | -------- | ------------ | ------------- |
+| SVC                 | TfIdf              | 96.043   | 3h 57min 16s | 2.13          |
+| NN                  | TfIdf              | 95.921   | 30min 21s    | 1.05GB        |
+| Logistic Regression | TfIdf              | 95.735   | 5min 36s     | 0.64          |
+| NN                  | Count Vectorizer   | 95.701   | 4min 50s     | 0.86GB        |
+| Logistic Regression | Count Vectorizer   | 95.465   | 7min 36s     | 0.79          |
+| CNN                 | Embedding          | 95.038   | 5h 56min 21s | 1.6           |
+| SVC                 | Count Vectorizer   | 94.591   | 2h 29min 4s  | 2.3           |
+| Random Forest       | TfIdf              | 93.791   | 1h 8min 7s   | 3.12          |
+| Random Forest       | Count Vectorizer   | 93.69    | 2h 55min 4s  | 2.1           |
+| DecisionTree        | Count Vectorizer   | 85.78    | 7min 8s      | 1.6 GB        |
+| DecisionTree        | TfIdf              | 85.238   | 7min 51s     | 2.2           |
+| NN                  | Embedding          | 80.083   | \>6h         | 1.7           |
+| XLNet               | XLNet              | 20.225   | \>6h         |               |
 
-2-NN_TfIdf=96.0077872576269
 
-3-Logistic Regression_TfIdf=95.7348664557344
+![acc](https://user-images.githubusercontent.com/78812316/182325533-74a143ee-fe69-4d42-a936-8aa190a7013f.jpg)
 
-4-Logistic Regression_Count Vectorizer=95.4648608237318
-
-5-CNN_Embedding=95.0377829996709
-
-6-Random Forest_TfIdf=93.7913876073144
-
-7-DecisionTree _TfIdf=85.238443051627
-
-8-
-
-9-
-
----------------------------
 
 Dataset Sources:
 
