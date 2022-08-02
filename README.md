@@ -23,7 +23,8 @@ Then we sort through one of the classifiers:
 
 4-Logistic regression
 
-5-SVC
+5- SVC
+
 ---------------------------
 في هذا البرنامج نصنف المقالات باللغة العربية
 حيث نقوم بتنظيف النص أولاً
