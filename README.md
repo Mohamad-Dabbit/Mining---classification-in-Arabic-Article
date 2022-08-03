@@ -59,27 +59,28 @@ Resulte:
 
 النتائج:
 
-
-| Classification      | Feature Extraction | accuracy | Time         | RAM ABOVE 1GB |
-| ------------------- | ------------------ | -------- | ------------ | ------------- |
-| SVC                 | TfIdf              | 96.043   | 3h 57min 16s | 2.13          |
-| NN                  | TfIdf              | 95.921   | 30min 21s    | 1.05GB        |
-| Logistic Regression | TfIdf              | 95.735   | 5min 36s     | 0.64          |
-| NN                  | Count Vectorizer   | 95.701   | 4min 50s     | 0.86GB        |
-| Logistic Regression | Count Vectorizer   | 95.465   | 7min 36s     | 0.79          |
-| CNN                 | Embedding          | 95.038   | 5h 56min 21s | 1.6           |
-| SVC                 | Count Vectorizer   | 94.591   | 2h 29min 4s  | 2.3           |
-| Random Forest       | TfIdf              | 93.791   | 1h 8min 7s   | 3.12          |
-| Random Forest       | Count Vectorizer   | 93.69    | 2h 55min 4s  | 2.1           |
-| DecisionTree        | Count Vectorizer   | 85.78    | 7min 8s      | 1.6 GB        |
-| DecisionTree        | TfIdf              | 85.238   | 7min 51s     | 2.2           |
-| NN                  | Embedding          | 80.083   | \>6h         | 1.7           |
-| XLNet               | XLNet              | 20.225   | \>6h         |               |
-
-
-![acc](https://user-images.githubusercontent.com/78812316/182325533-74a143ee-fe69-4d42-a936-8aa190a7013f.jpg)
+| num | Classification      | Feature Extraction | accuracy | Time         | RAM ABOVE 1GB |
+| --- | ------------------- | ------------------ | -------- | ------------ | ------------- |
+| 1   | SVC                 | TfIdf              | 96.0431  | 3h 57min 16s | 2.13          |
+| 2   | Logistic Regression | TfIdf              | 95.7349  | 5min 36s     | 0.64          |
+| 3   | NN                  | Count Vectorizer   | 95.7013  | 4min 50s     | 0.86GB        |
+| 4   | NN                  | TfIdf              | 95.6278  | 4min 13s     | 1.05GB        |
+| 5   | Logistic Regression | Count Vectorizer   | 95.4649  | 7min 36s     | 0.79          |
+| 6   | CNN                 | Embedding          | 95.0378  | 5h 56min 21s | 1.6           |
+| 7   | SVC                 | Count Vectorizer   | 94.5908  | 2h 29min 4s  | 2.3           |
+| 8   | Random Forest       | TfIdf              | 93.7914  | 1h 8min 7s   | 3.12          |
+| 9   | Random Forest       | Count Vectorizer   | 93.6903  | 2h 55min 4s  | 2.1           |
+| 10  | Decision Tree       | Count Vectorizer   | 85.7799  | 7min 8s      | 1.6 GB        |
+| 11  | Decision Tree       | TfIdf              | 85.2384  | 7min 51s     | 2.2           |
+| 12  | NN                  | Embedding          | 80.0826  | \>6h         | 1.7           |
+| 13  | XLNet               | XLNet              | 20.2247  | \>6h         |               |
 
 
+
+![acc](https://user-images.githubusercontent.com/78812316/182592307-fcd9593c-fe1a-440c-8985-86780472b25f.jpg)
+
+
+**Sources:**
 Dataset Sources:
 
 https://www.kaggle.com/datasets/saurabhshahane/arabic-classification
