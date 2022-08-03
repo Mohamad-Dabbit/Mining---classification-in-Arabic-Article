@@ -76,11 +76,13 @@ Resulte:
 | 13  | XLNet               | XLNet              | 20.2247  | \>6h         |               |
 
 
+![acc](https://user-images.githubusercontent.com/78812316/182592798-581d4708-33df-4688-9012-724596968f79.jpg)
 
-![acc](https://user-images.githubusercontent.com/78812316/182592307-fcd9593c-fe1a-440c-8985-86780472b25f.jpg)
 
 
 **Sources:**
+
+
 Dataset Sources:
 
 https://www.kaggle.com/datasets/saurabhshahane/arabic-classification
