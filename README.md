@@ -76,8 +76,7 @@ Resulte:
 | 13  | XLNet               | XLNet              | 20.2247  | \>6h         |               |
 
 
-![acc](https://user-images.githubusercontent.com/78812316/182592798-581d4708-33df-4688-9012-724596968f79.jpg)
-
+![acc](https://user-images.githubusercontent.com/78812316/182844713-82b070ba-c3a8-458e-91b3-738e7f5cd9dc.jpg)
 
 
 **Sources:**
