@@ -10,7 +10,7 @@ Then we convert it to numbers via a feature extraction:
 
 3- Word Embedding
 
-4- XLnet
+//4- XLnet
 
 
 Then we sort through one of the classifiers:
