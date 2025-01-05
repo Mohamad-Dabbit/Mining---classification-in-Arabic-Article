@@ -37,7 +37,7 @@ Then we sort through one of the classifiers:
 
 3- Word Embedding
 
-4- XLnet
+
 
 
 ثم نقوم بالفرز من خلال أحد المصنفات:
